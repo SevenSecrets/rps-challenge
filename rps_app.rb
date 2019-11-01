@@ -25,3 +25,8 @@ class RPSapp < Sinatra::Base
 
   run! if app_file == $0
 end
+
+### code to be used later
+### player = Player.new(params[:player_name])
+### $game = Game.new(player)
+###
