@@ -2,6 +2,13 @@
 
 class RPSapp < Sinatra::Base
 
+  @rules = {
+    rock: :scissors,
+    scissors: :paper,
+    paper: :scissors
+  }
+  @choices = @rules.keys
+
   get '/' do
 
   end
@@ -13,4 +20,4 @@ class RPSapp < Sinatra::Base
   get '/result' do
 
   end
-end 
+end

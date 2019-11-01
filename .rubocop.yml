@@ -72,7 +72,7 @@ Metrics/BlockLength:
 IndentationConsistency:
   Enabled: true
 IndentationWidth:
-  Enabled: true
+  Enabled: false
 AccessorMethodName:
   Enabled: true
 BlockEndNewline:
