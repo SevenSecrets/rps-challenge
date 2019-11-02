@@ -1,9 +1,9 @@
 source 'https://rubygems.org' do
 
-  gem 'rake'
-  gem 'sinatra'
   gem 'capybara'
+  gem 'rake'
   gem 'selenium-webdriver'
+  gem 'sinatra'
 
   group :test do
     gem 'rspec'
